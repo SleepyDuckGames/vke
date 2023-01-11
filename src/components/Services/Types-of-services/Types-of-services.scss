@@ -1,0 +1,68 @@
+@function rem($value) {
+    $remValue: calc($value / 16) + rem;	
+    @return $remValue;
+}
+
+.types-of-services{
+    background-color: #00ABC2;
+}
+
+.types-of-services__row{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px
+}
+
+.types-of-services__item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    @media(max-width: 991px) {
+        flex-direction: column;
+    }
+}
+
+.types-of-services__information{
+    flex: 0 1 40%;
+    padding: 50px 5px 50px 20px;
+    color: white;
+    ul li{
+        list-style: inside;
+        list-style-position: outside;
+    }
+    @media(max-width: 991px) {
+        flex: 1 1 auto;
+    }
+}
+
+.types-of-services__icon{
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 20px 45px;
+}
+
+.reverse{ 
+    .types-of-services__list{
+        padding-left: 16px;
+    }
+    @media(max-width: 991px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.ul-tab li{
+    margin-top: 8px;
+    padding-left: 16px;
+}
+
+.types-of-services__img{
+    flex: 1 1 60%;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    @media(max-width: 991px) {
+        flex: 1 1 auto;
+        width: 100%;
+        height: 300px;
+    }
+}

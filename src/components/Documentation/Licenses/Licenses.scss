@@ -1,0 +1,29 @@
+.licenses__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.licenses__img{
+    border: 4px solid #00ABC2;
+    width: 35vw;
+    margin: 0px 0px 50px 0px;
+    cursor: zoom-in;
+}
+
+.licenses__text{
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 50px;
+    @media (max-width: 991px) {
+        font-size: 30px;
+    }
+    @media (max-width: 575px) {
+        font-size: 20px;
+    }
+}
+
+.swiper-zoom-container img{
+    height: 85vh;
+}

@@ -1,0 +1,33 @@
+@function rem($value) {
+    $remValue: calc($value / 16) + rem;	
+    @return $remValue;
+}
+
+.page{
+    background-position: 0% 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-height: calc(100vh - 130px);
+}
+
+.page__title{
+    padding-top: 10vh;
+    color: white;
+    font-weight: 700;
+    font-size: rem(44);
+
+    @media(max-width: 767px){
+        font-size: rem(20);
+    }
+}
+
+.page__subtitle{
+    margin-top: 16px;
+    color: white;
+    font-weight: 500;
+    font-size: rem(36);
+    
+    @media(max-width: 767px){
+        font-size: rem(18);
+    }
+}

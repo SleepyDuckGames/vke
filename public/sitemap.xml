@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://vke.kz/</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/about</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/services</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/complited</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/in-progress</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/in-progress/extension-of-substation-220-kulsary</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/in-progress/replacement-of-high-voltage-equipment-at-ss-220-kv-pravoberezhnaya</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/documentation</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+<url>
+  <loc>https://vke.kz/contacts</loc>
+  <lastmod>2022-12-13T03:45:47+00:00</lastmod>
+</url>
+
+</urlset>
